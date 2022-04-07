@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My first html site</title>
+  </head>
+  <body>
+    <a href="index.html"><h1>На главную</h1></a>
+    <style>
+      body {
+        background: url(img/fon2.jpg) no-repeat;
+        background-size: cover;
+      }
+    </style>
+    <center><h2>Связаться со мной</h2></center>
+    <center>
+      <form id="feedback">
+        Фамилия<br />
+        <input type="text" id="lastname" /><br />
+        Имя<br />
+        <input type="text" id="firstname" /><br />
+        Отчество<br />
+        <input type="text" id="patronymic" /><br />
+        <br />
+        <form action="">
+          <textarea name="Сообщение" id="" cols="30" rows="10">
+Введите текст</textarea
+          >
+        </form>
+        <select id="topic">
+          <option>...</option>
+          <option>...</option>
+          <option>...</option></select
+        ><br />
+        <input type="checkbox" id="email" /> Получить ответ по e-mail<br />
+        <input type="submit" id="send" />
+        <input type="reset" id="clear" />
+      </form>
+    </center>
+  </body>
+</html>
